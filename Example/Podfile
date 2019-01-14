@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ZKActivityIndicator_Example' do
+  pod 'ZKActivityIndicator', :path => '../'
+
+  target 'ZKActivityIndicator_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase' , '~> 2.1.4'
+  end
+end
