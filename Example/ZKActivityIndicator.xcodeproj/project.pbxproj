@@ -15,6 +15,7 @@
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		E4125BB88E3AD61E388CD856 /* Pods_ZKActivityIndicator_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 420B9756EAF88C129E67AC4C /* Pods_ZKActivityIndicator_Example.framework */; };
+		FAE3AFF021EC2B9C00AE93F1 /* ZKActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE3AFEF21EC2B9C00AE93F1 /* ZKActivityIndicator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,8 +29,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0ECFC95F462C2F57C721C5D5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		3D9D2EE0AFCC737FD194A3F2 /* ZKActivityIndicator.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = ZKActivityIndicator.podspec; path = ../ZKActivityIndicator.podspec; sourceTree = "<group>"; };
+		0ECFC95F462C2F57C721C5D5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		3D9D2EE0AFCC737FD194A3F2 /* ZKActivityIndicator.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ZKActivityIndicator.podspec; path = ../ZKActivityIndicator.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		420B9756EAF88C129E67AC4C /* Pods_ZKActivityIndicator_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZKActivityIndicator_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5072B85C9F07CDCD188D9B3C /* Pods-ZKActivityIndicator_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZKActivityIndicator_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZKActivityIndicator_Example/Pods-ZKActivityIndicator_Example.release.xcconfig"; sourceTree = "<group>"; };
 		528C0F81F63D4BD71711F125 /* Pods_ZKActivityIndicator_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZKActivityIndicator_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -45,8 +46,9 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		66CA5B0685961D08F143BFE2 /* Pods-ZKActivityIndicator_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZKActivityIndicator_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZKActivityIndicator_Tests/Pods-ZKActivityIndicator_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		6E46B36D0F5E27F62B2EFABA /* Pods-ZKActivityIndicator_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZKActivityIndicator_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZKActivityIndicator_Example/Pods-ZKActivityIndicator_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		CFF44F4AE3666F7E698416FB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		CFF44F4AE3666F7E698416FB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		F2E4907DBF78F6454279412B /* Pods-ZKActivityIndicator_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZKActivityIndicator_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZKActivityIndicator_Tests/Pods-ZKActivityIndicator_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		FAE3AFEF21EC2B9C00AE93F1 /* ZKActivityIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ZKActivityIndicator.swift; path = ../ZKActivityIndicator/Classes/ZKActivityIndicator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +94,7 @@
 		607FACC71AFB9204008FA782 = {
 			isa = PBXGroup;
 			children = (
+				FAE3AFEF21EC2B9C00AE93F1 /* ZKActivityIndicator.swift */,
 				607FACF51AFB993E008FA782 /* Podspec Metadata */,
 				607FACD21AFB9204008FA782 /* Example for ZKActivityIndicator */,
 				607FACE81AFB9204008FA782 /* Tests */,
@@ -213,6 +216,7 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 963EG8X626;
 						LastSwiftMigration = 0900;
 					};
 					607FACE41AFB9204008FA782 = {
@@ -359,6 +363,7 @@
 			files = (
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				FAE3AFF021EC2B9C00AE93F1 /* ZKActivityIndicator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -504,7 +509,9 @@
 			baseConfigurationReference = 6E46B36D0F5E27F62B2EFABA /* Pods-ZKActivityIndicator_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 963EG8X626;
 				INFOPLIST_FILE = ZKActivityIndicator/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
@@ -519,7 +526,9 @@
 			baseConfigurationReference = 5072B85C9F07CDCD188D9B3C /* Pods-ZKActivityIndicator_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 963EG8X626;
 				INFOPLIST_FILE = ZKActivityIndicator/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
